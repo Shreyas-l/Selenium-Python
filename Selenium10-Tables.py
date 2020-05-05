@@ -17,7 +17,7 @@ print("Month" + "     " + "Earnings" + "     " + "Savings")
 
 for r in range(2,rows+1):
 	for c in range(1,col+1):
-		ele = driver.find_element_by_xpath("/html/body/table/tbody/tr" + str([r]) + "/td" + str([c]))
+		ele = driver.find_element_by_xpath("/html/body/table/tbody/tr" + str([r]) + "/td" + str([c])) # tr[r]/td[c]
 		print(ele.text,end = "     ")
 	print()
 

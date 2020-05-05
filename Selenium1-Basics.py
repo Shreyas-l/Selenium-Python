@@ -9,7 +9,7 @@ driver.get("http://demo.automationtesting.in/Windows.html")
 print(driver.title)  # TItle of Page
 print(driver.current_url)
 
-#print(driver.page_source) # HTML of Page
+print(driver.page_source) # HTML of Page
 
 driver.find_element_by_xpath("//*[@id='Tabbed']/a/button").click()
 
