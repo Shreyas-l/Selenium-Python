@@ -20,7 +20,7 @@ while roll != 101778:
 	time.sleep(1)
 	driver.find_element_by_xpath("/html/body/div[2]/form/center[2]/input").click()
 	time.sleep(2)
-	if driver.current_url == "https://sp.fcrit.ac.in/studentportal/index.php":
+	if driver.current_url == "https://sp.fcrit.ac.in/studentportal/index.php":  # Use Title Instead.
 		print("Not Succesful : ",roll)
 	else:
 		time.sleep(1)
