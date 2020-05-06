@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import time
+ 
 
 chromeOptions = Options()
 chromeOptions.add_experimental_option("prefs",{"download.default_directory" : "/Users/shreyas_rl/Desktop/git/Selenium-Python"})
