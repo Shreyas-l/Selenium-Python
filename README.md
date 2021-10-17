@@ -1,3 +1,3 @@
 # Selenium-Python
 
-Practicing Pyython's Selenium for WebAutomation
+Practicing Python's Selenium for WebAutomation
